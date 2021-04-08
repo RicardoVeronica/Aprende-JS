@@ -1,0 +1,8 @@
+User Interface basada en el estado de la aplicacion:
+Cada vez que se actualiza el estado de la aplicacion (datos) puede cambiar o no la UI, esto es la ractividad
+que tiene la aplicacion con base a los cambios del estado.
+
+Programacion orientada a componentes:
+Estas interfaces visuales se dividen en componentes.
+Patron visual reusable que se puede resumir en un fragmento de codigo HTML, CSS y posiblemente JS.
+Son independientes de otros componentes y de su mismo contexto.

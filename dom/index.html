@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Web APIs</h1>
+    <h2>DOM: Document Object Model</h2>
+    <h2>BOM: Browser Object Model</h2>
+    <h2>CSSOM: CSS Object Model</h2>
+
+    <ul>
+      <li>Eventos</li>
+      <li>Forms</li>
+      <li>AJAX - Fetch</li>
+      <li>History</li>
+      <li>Web Storage</li>
+      <li>Geolocation</li>
+      <li>Drag & Drop</li>
+      <li>Canvas</li
+      <li>Etc</li>
+    </ul>
+
+    <hr>
+
+    <h3>Manejo del DOM</h3>
+
+    <p id="que-es">
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#">section 1</a></li>
+        <li><a href="#">section 2</a></li>
+        <li><a href="#">section 3</a></li>
+        <li><a href="#">section 4</a></li>
+        <li><a href="#">section 5</a></li>
+      </ul>
+    </nav>
+
+    <input type="text" placeholder="Name" name="name"/>
+
+    <a
+      class="link-dom"
+      href="index.html"
+      data-id="1"
+      data-description="Document Object Model"
+    >
+      DOM
+    </a>
+
+    <section
+      class="cards"
+      style="border: thin solid;"
+    >
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/people" alt="People">
+        <figcaption>Peole</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/tech" alt="Tech">
+        <figcaption>Tech</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/animals" alt="Animals">
+        <figcaption>Animals</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/arch" alt="Arch">
+        <figcaption>Architecture</figcaption>
+      </figure>
+      <figure class="card">
+        <img src="https://placeimg.com/200/200/nature" alt="Nature">
+        <figcaption>Naure</figcaption>
+      </figure>
+    </section>
+
+    <template id="template-card">
+      <figure class="cards">
+        <img>
+        <figcaption></figcaption>
+      </figure>
+    </template>
+
+    <h2>Eventos en Javascript</h2>
+    <!-- <button onclick="console.log('Hello event')">Evento con atributo HTML</button> -->
+    <button onclick="eventoAtributo()">Evento con atributo HTML</button>
+    <br>
+    <button id="evento-semantico">Evento manejador semantico</button>
+    <br>
+    <button id="evento-multiple">Evento manejador multiple</button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
