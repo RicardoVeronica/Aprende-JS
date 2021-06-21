@@ -1,12 +1,12 @@
 const booksDB = [
   {
     id: 1,
-    title: 'Clean code'
+    title: "Clean code",
   },
   {
     id: 2,
-    title: 'Eloquent Javascript'
-  }
+    title: "Eloquent Javascript",
+  },
 ];
 
-export default booksDB
+export default booksDB;
